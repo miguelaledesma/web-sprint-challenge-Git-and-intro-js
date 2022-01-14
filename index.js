@@ -232,7 +232,7 @@ Example, if getArtistByIndex is invoked with the artists array and the number 0,
 function getArtistByIndex(array, index) {
   return `the artist at index ${array[index].id} is ${array[index].name}`
 }
-console.log(getArtistByIndex(artists, 0))
+console.log('task3',getArtistByIndex(artists, 0))
 
 
 
@@ -255,7 +255,7 @@ function get20s (array) {
   return newArray;  
 }
 
-console.log(get20s(artists));
+console.log('Task4',get20s(artists));
  
  
   
@@ -278,7 +278,7 @@ function removeArtist(array, index) {
   array.shift({index});
   return array.length
 }
-console.log(removeArtist(artists, 0))
+console.log('Task5',removeArtist(artists, 0))
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
@@ -303,12 +303,12 @@ function addArtist(array) {
     name: 'Miguel', 
     years: '1997' - '2022',
     genre: 'Web Design', 
-    nationality: 'Your Nationality Here',
-    bio: 'use lorem ipsum'
+    nationality: 'Mexican',
+    bio: 'i have a dog'
   })
   return array; 
 }
-console.log(addArtist(artists))
+console.log('Task6',addArtist(artists))
 
 
 
@@ -350,7 +350,7 @@ function artistInfo(array, name){
   return result;
 
 }
-console.log(artistInfo(artists, 'Frida Kahlo'))
+console.log('Task8',artistInfo(artists, 'Frida Kahlo'))
 
 
 
@@ -374,7 +374,7 @@ function artistByCountry(array, nationality){
   }
   return result;
 }
-console.log(artistByCountry(artists, 'Spanish'))
+console.log('Task9',artistByCountry(artists, 'Spanish'))
 
 
 
