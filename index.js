@@ -329,7 +329,7 @@ function lotsOfArt(array) {
   return result;
 }
 
-console.log('Task 7:', lotsOfArt(artists));
+console.log('Task7', lotsOfArt(artists));
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 8: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 Use artistInfo to do the following: 
